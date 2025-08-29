@@ -21,7 +21,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.jainshashank7125.wishlistapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -29,6 +30,11 @@
     "scheme": "centscape",
     "deepLinks": [
       "centscape://*"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ad7010ec-5d1c-4c8f-a32d-91e4d1ffa276"
+      }
+    }
   }
 }
